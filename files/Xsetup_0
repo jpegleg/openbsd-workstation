@@ -17,4 +17,4 @@ ${exec_prefix}/bin/xconsole -geometry 480x130-0-0 -daemon -notify -verbose -fn f
 # fi
 
 # sxpm OpenBSD.xpm &
-/usr/local/bin/xv -root -rmode 5 -quit /home/crab/images/login.png
+/usr/local/bin/xv -root -rmode 5 -quit /home/$(whoami)/images/login.png
