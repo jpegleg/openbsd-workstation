@@ -1,0 +1,19 @@
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+XTerm*loginShell:true
+XTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> P: scroll-back(1.page) \n\
+    Shift Ctrl <Key> L: scroll-forw(1.page) \n\
+
+xterm*font:     *-fixed-*-*-*-13-*
+
+XTerm.vt100.background: black
+XTerm.vt100.foreground: grey
+XTerm.vt100.saveLines: 10000
+
+*VT100.utf8Fonts.font: fixed
+
+! DarkBlue & Blue
+xterm*color4: #0000aa
+xterm*color12: #5555ff
