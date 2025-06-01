@@ -189,7 +189,7 @@ bar {
         status_command i3status
 }
 
-exec_always feh --bg-fill /home/crab/images/sphere.png
+exec_always feh --bg-fill /opt/images/sphere.png
 # class                 border  backgr. text    indicator child_border
 client.focused          #5600ff #000000 #dddddd #999999   #ffffff
 client.focused_inactive #000000 #000000 #dddddd #999999   #ffffff
