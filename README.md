@@ -23,6 +23,7 @@ git-2.49.0
 i3-4.24
 i3lock-2.15
 imv-2.1.3p1
+kubectl-1.29.5
 mpv-0.40.0
 obsdfreqd-1.2.1
 picom-11.2
