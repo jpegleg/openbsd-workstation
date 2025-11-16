@@ -8,6 +8,7 @@ fish-4.1.1
 flameshot-13.1.0
 gedit-48.2
 git-2.51.0
+gmake-4.4.1
 i3-4.24
 i3lock-2.15
 imv-2.1.3p1
