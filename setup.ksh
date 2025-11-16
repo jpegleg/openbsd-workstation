@@ -11,4 +11,4 @@ curl -o elvish-v0.21.0.tar.gz https://dl.elv.sh/openbsd-amd64/elvish-v0.21.0.tar
 tar -xzvf elvish-v0.21.0.tar.gz
 mkdir -p ~/.config/elvish
 cp files/rc.elv ~/.config/elvish/rc.elv
-
+cp files/xsession ~/.xsession
