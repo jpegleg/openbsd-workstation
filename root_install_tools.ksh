@@ -9,14 +9,6 @@ done
 
 cd ..
 
-cd wormsign || exit 1
-
-echo "Installing wormsign and wormsign-confgen"
-cp target/release/wormsign /usr/local/bin/
-cp target/release/wormsign-confgen /usr/local/bin
-
-cd ..
-
 cd file_encryption_AES256/rust/ || exit 1
 
 echo "Installing AES256CTR"
