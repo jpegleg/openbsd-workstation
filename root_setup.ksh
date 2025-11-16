@@ -4,5 +4,6 @@ cp files/Xresources /etc/X11/xenodm/
 cp files/Xsetup_0 /etc/X11/xenodm/
 mkdir -p /opt/images
 cp images/* /opt/images/
-
+mkdir /root/images
+cp images/* /root/images/
 pkg_add -l files/packages.txt
