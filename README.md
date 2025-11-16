@@ -69,8 +69,5 @@ xv-5.2.0
 
 I have the `elvish` shell being installed outside of the OpenBSD package directly from tarball to use a newer version. Currently the package is ~ 3 years old with 0.16.3. The user setup script downloads elvish and untars in in pwd as well as installs an rc file for elvish. To copy elvish binary to `/usr/local/bin/` there is another script to run as root `root_elvish.ksh` that copies `./elvish` to `/usr/local/bin/elvish`. 
 
-There is also a script for compiling and installing my rust CLI tools, `tools.ksh`.
+There is also a script for compiling and installing some of my rust CLI tools, `tools.ksh`.
 
-## Additional steps and configurations
-
-I'll add some more detail here soon.
