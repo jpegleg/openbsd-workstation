@@ -21,6 +21,7 @@ fish-4.1.1
 flameshot-13.1.0
 gedit-48.2
 git-2.51.0
+gmake-4.4.1
 i3-4.24
 i3lock-2.15
 imv-2.1.3p1
@@ -66,6 +67,8 @@ tumbler-4.20.0
 vim-9.1.1265-no_x11-python3
 xv-5.2.0
 ```
+
+The `gmake` package has been added since the original build. This was done to support the latest `giant-spellbook` tool dependencies.
 
 I have the `elvish` shell being installed outside of the OpenBSD package directly from tarball to use a newer version. Currently the package is ~ 3 years old with 0.16.3. The user setup script downloads elvish and untars in in pwd as well as installs an rc file for elvish. To copy elvish binary to `/usr/local/bin/` there is another script to run as root `root_elvish.ksh` that copies `./elvish` to `/usr/local/bin/elvish`. 
 
